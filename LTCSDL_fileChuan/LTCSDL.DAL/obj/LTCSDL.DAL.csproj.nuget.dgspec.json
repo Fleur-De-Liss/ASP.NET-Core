@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\LTCSDL.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\LTCSDL.Common.csproj",
+        "projectName": "LTCSDL.Common",
+        "projectPath": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\LTCSDL.Common.csproj",
+        "packagesPath": "C:\\Users\\Be Original\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Be Original\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.DAL\\LTCSDL.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
+        "projectName": "LTCSDL.DAL",
+        "projectPath": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.DAL\\LTCSDL.DAL.csproj",
+        "packagesPath": "C:\\Users\\Be Original\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Be Original\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\LTCSDL.Common.csproj": {
+                "projectPath": "C:\\Users\\Be Original\\Desktop\\cv\\LTCSDL_TH71_Nhom14\\LTCSDL_fileChuan\\LTCSDL.common\\LTCSDL.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
